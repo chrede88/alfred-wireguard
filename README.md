@@ -8,4 +8,5 @@ Download the most recent .alfredworkflow file from [GitHub releases](https://git
 - `wguard`: toggle preinstalled wireguard VPN tunnels.
 
 ## License
-This workflow is licensed under the [MIT Licence](http://opensource.org/licenses/MIT).
+This workflow is licensed under the [MIT Licence](http://opensource.org/licenses/MIT).  
+The main logo is a registered trademarks of Jason A. Donenfeld, [WireGuard](https://www.wireguard.com/).
