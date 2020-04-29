@@ -9,4 +9,4 @@ Download the most recent .alfredworkflow file from [GitHub releases](https://git
 
 ## License
 This workflow is licensed under the [MIT Licence](http://opensource.org/licenses/MIT).  
-The main logo is a registered trademarks of Jason A. Donenfeld, [WireGuard](https://www.wireguard.com/).
+The main logo is a registered trademark of Jason A. Donenfeld, [WireGuard](https://www.wireguard.com/).
