@@ -42,7 +42,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Wireguard Control</string>
+	<string>WireGuard Control</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -81,7 +81,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Wireguard VPN</string>
+				<string>WireGuard VPN</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -106,7 +106,7 @@
 				<key>text</key>
 				<string>{query}</string>
 				<key>title</key>
-				<string>Wireguard VPN</string>
+				<string>WireGuard VPN</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
@@ -140,7 +140,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Wireguard Control enables the user to toggle predefined Wire Guard VPN tunnels, using the keyword wguard.</string>
+	<string>WireGuard Control enables the user to toggle predefined WireGuard VPN tunnels, using the keyword wguard.</string>
 	<key>uidata</key>
 	<dict>
 		<key>1EE8D950-821D-49FA-9FD5-7B94DD45056F</key>
