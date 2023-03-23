@@ -38,11 +38,11 @@
 	<key>createdby</key>
 	<string>Christian Olsen</string>
 	<key>description</key>
-	<string>Toggle Wiregaurd VPN connections</string>
+	<string>Toggle WireGaurd VPN connections</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Wireguard Control</string>
+	<string>WireGuard Control</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -57,7 +57,7 @@
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
@@ -81,11 +81,11 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Wireguard VPN</string>
+				<string>WireGuard VPN</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -106,7 +106,7 @@
 				<key>text</key>
 				<string>{query}</string>
 				<key>title</key>
-				<string>Wireguard VPN</string>
+				<string>WireGuard VPN</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
@@ -140,31 +140,33 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Wireguard Control enables the user to toggle predefined Wire Guard VPN tunnels, using the keyword wguard.</string>
+	<string>WireGuard Control enables the user to toggle predefined Wire Guard VPN tunnels, using the keyword wguard.</string>
 	<key>uidata</key>
 	<dict>
 		<key>1EE8D950-821D-49FA-9FD5-7B94DD45056F</key>
 		<dict>
 			<key>xpos</key>
-			<integer>620</integer>
+			<real>620</real>
 			<key>ypos</key>
-			<integer>180</integer>
+			<real>180</real>
 		</dict>
 		<key>661B2258-0E04-428F-8393-E8EBF6A096C5</key>
 		<dict>
 			<key>xpos</key>
-			<integer>410</integer>
+			<real>410</real>
 			<key>ypos</key>
-			<integer>180</integer>
+			<real>180</real>
 		</dict>
 		<key>A223DE44-0855-4BF8-8A0E-021475E7FFF9</key>
 		<dict>
 			<key>xpos</key>
-			<integer>190</integer>
+			<real>190</real>
 			<key>ypos</key>
-			<integer>180</integer>
+			<real>180</real>
 		</dict>
 	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>

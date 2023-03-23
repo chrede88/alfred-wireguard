@@ -1,7 +1,7 @@
 #!/bin/bash
 
 get_vpn_names() {
-  scutil --nc list | grep "com.wireguard.macos" | awk -F'"' '{print$2}'
+  scutil --nc list | grep "com.wireguard.macos" | awk -F'"' '{print$2}' | sort
 }
 
 get_vpn_status() {
