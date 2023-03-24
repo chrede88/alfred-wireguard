@@ -38,7 +38,7 @@
 	<key>createdby</key>
 	<string>Christian Olsen</string>
 	<key>description</key>
-	<string>Toggle WireGaurd VPN connections</string>
+	<string>Toggle WireGuard VPN connections</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
