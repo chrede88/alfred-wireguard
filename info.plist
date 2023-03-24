@@ -5,7 +5,7 @@
 	<key>bundleid</key>
 	<string>com.cjsolsen.wireguard-control</string>
 	<key>category</key>
-	<string>Internet</string>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>661B2258-0E04-428F-8393-E8EBF6A096C5</key>
@@ -73,17 +73,17 @@
 				<key>runningsubtext</key>
 				<string></string>
 				<key>script</key>
-				<string>bash vpnlist.sh</string>
+				<string>bash </string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string>vpnlist.sh</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
 				<string>WireGuard VPN</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>8</integer>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -125,11 +125,11 @@
 				<key>script</key>
 				<string>bash togglevpn.sh {query}</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string>togglevpn.sh</string>
 				<key>type</key>
-				<integer>0</integer>
+				<integer>8</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
@@ -170,7 +170,7 @@
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>webaddress</key>
 	<string>https://www.github.com/chrede88/alfred-wireguard</string>
 </dict>
