@@ -24,7 +24,7 @@ wait_for_disconnect() {
     status=$(get_vpn_status "$vpn")
 
     timeout=0
-    while [ "$status" != "Connected" ]
+    while [ "$status" != "Disconnected" ]
     do
         sleep 0.5
         timeout=$(echo $timeout + 0.5 | bc)
