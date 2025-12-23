@@ -24,18 +24,7 @@ wait_for_disconnect() {
     status=$(get_vpn_status "$vpn")
 
     timeout=0
-    while [ "$status" = "" ]
-    do
-        sleep 0.5
-        timeout=$(echo $timeout + 0.5 | bc)
-        if [ timeout > 5 ]; then
-            break
-        fi
-        status=$(get_vpn_status "$vpn")
-    done
-
-    timeout=0
-    while [ "$status" = "Connected" ]
+    while [ "$status" != "Connected" ]
     do
         sleep 0.5
         timeout=$(echo $timeout + 0.5 | bc)
